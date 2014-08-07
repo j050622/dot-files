@@ -8,3 +8,4 @@ ln -sf ~/dotfiles/vim/vimrc               ~/.vimrc
 ln -sf ~/dotfiles/xinitrc                 ~/.xinitrc
 ln -sf ~/dotfiles/zsh/zshrc               ~/.zshrc
 ln -sf ~/dotfiles/vimperator              ~/.vimperator
+ln -sf ~/dotfiles/awesome                 ~/.config/awesome

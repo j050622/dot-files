@@ -11,7 +11,7 @@ local beautiful = require("beautiful")
 local naughty = require("naughty")
 local menubar = require("menubar")
 -- Generated XDG menu
-require ("xdgmenu")
+-- require ("xdgmenu")
 
 -- AutoStartUp
 function run_once(cmd)
@@ -134,7 +134,6 @@ tencentmenu = {
 mymainmenu = awful.menu({ items = { { "Awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "Terminal(&T)", terminal },
                                     { "Emacs(&E)", emacsmenu },
-                                    { "System(&S)", xdgmenu },
                                     { "Gate", freegatemenu },
                                     { "TM", tencentmenu }
                                   }

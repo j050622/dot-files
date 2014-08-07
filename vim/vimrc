@@ -59,8 +59,8 @@ set textwidth=79
 " set smarttab
 set expandtab       " expand tab to space
 
-set list!
-set listchars=tab:>-
+set listchars=tab:>-,trail:-
+set list
 
 " statusline
 "set statusline=
