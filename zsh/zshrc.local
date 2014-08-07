@@ -1,0 +1,111 @@
+# Vars used later on by Zsh
+export EDITOR="vim"
+export BROWSER=firefox
+export PATH=~/.pyenv/shims:$PATH
+##################################################################
+# My aliases
+
+# Set up auto extension stuff
+alias -s html=$BROWSER
+alias -s py=vim
+alias -s js=vim
+alias -s c=vi
+alias -s java=vi
+alias -s txt=vi
+alias -s gz='tar -xzvf'
+alias -s tgz='tar -xzvf'
+alias -s zip='unzip'
+alias -s bz2='tar -xjvf'
+alias -s html=$BROWSER
+alias -s org=$BROWSER
+alias -s php=$BROWSER
+alias -s com=$BROWSER
+alias -s net=$BROWSER
+alias -s png=ristretto
+alias -s jpg=ristretto
+alias -s gif=ristretto
+alias -s doc=libreoffice
+alias -s gz='tar -xzvf'
+alias -s bz2='tar -xjvf'
+alias -s java=$EDITOR
+alias -s txt=$EDITOR
+alias -s PKGBUILD=$EDITOR
+alias -s mp4=smplayer
+alias -s avi=smplayer
+alias -s wmv=smplayer
+alias -s mkv=smplayer
+alias -s rmvb=smplayer
+alias -s pdf=zathura
+alias -s djvu=zathura
+alias -s chm=xchm
+alias -s mobi=FBReader
+
+# Normal aliases
+alias rsync='rsync -Pa --progress'
+alias cls='clear'
+alias vi='vim'
+alias javac="javac -J-Dfile.encoding=utf8"
+alias grep="grep --color=auto"
+alias ls='ls --color=auto -F'
+alias la='ls --color=auto -alhF'
+alias ll='ls --color=auto -lhF'
+alias lsd='ls -ld *(-/DN)'
+alias lsa='ls -ld .*'
+alias f='find | grep'
+alias rm='rm -i'
+alias c="clear"
+alias e='exit'
+alias dir='ls -1'
+alias ..='cd ..'
+alias mdns='sudo vim /etc/resolv.conf'
+alias mpd-on='sudo mpd --verbose /home/zjz311/.mpd/mpd.conf'
+alias http-own='sudo chown -R http:http'
+alias vpn-on='sudo openvpn --config ~/proxy/vpn/vpnbook-us1-udp25000.ovpn'
+alias vpn-off='sudo killall openvpn'
+alias utorrent="cd /zhang/utorrent && sudo ./utserver"
+alias hist="grep '$1' /home/zjz311/.zsh_history"
+alias irssi="irssi -c irc.freenode.net -n yyz"
+alias mem="free -m"
+alias sd="sdcv "
+alias virtualbox="(virtualbox >/dev/null 2>&1 &)"
+alias pfind='ps aux | grep'
+alias dns="sudo vim /etc/resolv.conf"
+alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
+alias helisp="zathura ~/all/emacs/introduction_to_programming_in_emacs_lisp.pdf &"
+
+alias -g XS='"$(xsel)"'
+
+# command L equivalent to command | less
+alias -g L='|less'
+
+# command S equivalent to command &> /dev/null &
+alias -g S='&> /dev/null &'
+
+##################################################################
+# ShellFuncs
+# -- coloured manuals
+man() {
+  env \
+    LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+    LESS_TERMCAP_md=$(printf "\e[1;31m") \
+    LESS_TERMCAP_me=$(printf "\e[0m") \
+    LESS_TERMCAP_se=$(printf "\e[0m") \
+    LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+    LESS_TERMCAP_ue=$(printf "\e[0m") \
+    LESS_TERMCAP_us=$(printf "\e[1;32m") \
+    man "$@"
+}
+
+s() {
+    sdcv "$1" | less
+    echo "$1" >> ~/Dropbox/english/new_words.txt
+}
+
+ktx() {
+    tmux ls | awk '{print $1}' | sed 's/://g' | xargs -I{} tmux kill-session -t {}
+}
+# z jump
+
+##################################################################
+# vi mode
+#bindkey -v
