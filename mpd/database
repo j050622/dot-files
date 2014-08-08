@@ -1,0 +1,1185 @@
+info_begin
+format: 1
+mpd_version: 0.18.9
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: Composer
+tag: Performer
+tag: Disc
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+info_end
+directory: 72
+mtime: 1390738058
+begin: 72
+song_begin: 李志-寻找-62523753.mp3
+Time: 225
+Artist: ÀîÖ¾
+Title: Ñ°ÕÒ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 1
+mtime: 1390738020
+song_end
+song_begin: 李志-尽头-62523754.mp3
+Time: 274
+Artist: ÀîÖ¾
+Title: ¾¡Í·
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 2
+mtime: 1390738044
+song_end
+song_begin: 李志-门-62523755.mp3
+Time: 387
+Artist: ÀîÖ¾
+Title: ÃÅ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 3
+mtime: 1390738055
+song_end
+song_begin: 李志-下雨-62523756.mp3
+Time: 307
+Artist: ÀîÖ¾
+Title: ÏÂÓê
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 4
+mtime: 1390738029
+song_end
+song_begin: 李志-山阴路的夏天-62523757.mp3
+Time: 278
+Artist: ÀîÖ¾
+Title: É½ÒõÂ·µÄÏÄÌì
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 5
+mtime: 1390738038
+song_end
+song_begin: 李志-女神-62523758.mp3
+Time: 300
+Artist: ÀîÖ¾
+Title: Å®Éñ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 6
+mtime: 1390738031
+song_end
+song_begin: 李志-你的早晨-62523759.mp3
+Time: 248
+Artist: ÀîÖ¾
+Title: ÄãµÄÔç³¿
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 7
+mtime: 1390738028
+song_end
+song_begin: 李志-杭州-62523760.mp3
+Time: 238
+Artist: ÀîÖ¾
+Title: º¼ÖÝ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 8
+mtime: 1390738053
+song_end
+song_begin: 李志-日-62523761.mp3
+Time: 163
+Artist: ÀîÖ¾
+Title: ÈÕ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 9
+mtime: 1390738040
+song_end
+song_begin: 李志-墙上的向日葵-62523762.mp3
+Time: 296
+Artist: ÀîÖ¾
+Title: Ç½ÉÏµÄÏòÈÕ¿û
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 10
+mtime: 1390738020
+song_end
+song_begin: 李志-铅笔-62523763.mp3
+Time: 275
+Artist: ÀîÖ¾
+Title: Ç¦±Ê
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 11
+mtime: 1390738017
+song_end
+song_begin: 李志-关于郑州的回忆-62523764.mp3
+Time: 228
+Artist: ÀîÖ¾
+Title: ¹ØÓÚÖ£ÖÝµÄ»ØÒä
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 12
+mtime: 1390738038
+song_end
+song_begin: 李志-忽然-62523765.mp3
+Time: 127
+Artist: ÀîÖ¾
+Title: ºöÈ»
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 13
+mtime: 1390738045
+song_end
+song_begin: 李志-秋天的老狼-62523766.mp3
+Time: 236
+Artist: ÀîÖ¾
+Title: ÇïÌìµÄÀÏÀÇ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 14
+mtime: 1390738035
+song_end
+song_begin: 李志-带亲-62523767.mp3
+Time: 222
+Artist: ÀîÖ¾
+Title: ´øÇ×
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 15
+mtime: 1390738058
+song_end
+song_begin: 李志-她-62523768.mp3
+Time: 247
+Artist: ÀîÖ¾
+Title: Ëý
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 16
+mtime: 1390738018
+song_end
+song_begin: 李志-路-62523769.mp3
+Time: 143
+Artist: ÀîÖ¾
+Title: Â·
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 17
+mtime: 1390738041
+song_end
+song_begin: 李志-夜-62523770.mp3
+Time: 275
+Artist: ÀîÖ¾
+Title: Ò¹
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 18
+mtime: 1390738023
+song_end
+song_begin: 李志-铅笔（吉松浩编曲版）-62523771.mp3
+Time: 277
+Artist: ÀîÖ¾
+Title: Ç¦±Ê£¨¼ªËÉºÆ±àÇú°æ£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 19
+mtime: 1390738048
+song_end
+song_begin: 李志-意味-62523772.mp3
+Time: 202
+Artist: ÀîÖ¾
+Title: ÒâÎ¶
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 20
+mtime: 1390738025
+song_end
+song_begin: 李志-苍井空-62523773.mp3
+Time: 260
+Artist: ÀîÖ¾
+Title: ²Ô¾®¿Õ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 21
+mtime: 1390738029
+song_end
+song_begin: 李志-结婚-62523774.mp3
+Time: 353
+Artist: ÀîÖ¾
+Title: ½á»é
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 22
+mtime: 1390738034
+song_end
+song_begin: 李志-鸵鸟-62523775.mp3
+Time: 267
+Artist: ÀîÖ¾
+Title: ÍÒÄñ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 23
+mtime: 1390738050
+song_end
+song_begin: 李志-天空之城-62523776.mp3
+Time: 223
+Artist: ÀîÖ¾
+Title: Ìì¿ÕÖ®³Ç
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 24
+mtime: 1390738042
+song_end
+song_begin: 李志-倒影-62523777.mp3
+Time: 183
+Artist: ÀîÖ¾
+Title: µ¹Ó°
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 25
+mtime: 1390738024
+song_end
+song_begin: 李志-爱-62523778.mp3
+Time: 201
+Artist: ÀîÖ¾
+Title: °®
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 26
+mtime: 1390738024
+song_end
+song_begin: 李志-家乡-62523779.mp3
+Time: 343
+Artist: ÀîÖ¾
+Title: ¼ÒÏç
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 27
+mtime: 1390738034
+song_end
+song_begin: 李志-1990年的春天-62523780.mp3
+Time: 270
+Artist: ÀîÖ¾
+Title: 1990ÄêµÄ´ºÌì
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 28
+mtime: 1390738016
+song_end
+song_begin: 李志-冬妮娅-62523781.mp3
+Time: 232
+Artist: ÀîÖ¾
+Title: ¶¬ÄÝæ«
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 29
+mtime: 1390738023
+song_end
+song_begin: 李志-听妈妈讲那过去的事情-62523782.mp3
+Time: 170
+Artist: ÀîÖ¾
+Title: ÌýÂèÂè½²ÄÇ¹ýÈ¥µÄÊÂÇé
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 30
+mtime: 1390738019
+song_end
+song_begin: 李志-美丽的梭罗河-62523783.mp3
+Time: 149
+Artist: ÀîÖ¾
+Title: ÃÀÀöµÄËóÂÞºÓ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 31
+mtime: 1390738030
+song_end
+song_begin: 李志-米店-62523784.mp3
+Time: 211
+Artist: ÀîÖ¾
+Title: Ã×µê
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 32
+mtime: 1390738047
+song_end
+song_begin: 李志-思念观世音-62523785.mp3
+Time: 193
+Artist: ÀîÖ¾
+Title: Ë¼Äî¹ÛÊÀÒô
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 33
+mtime: 1390738019
+song_end
+song_begin: 李志-在那遥远的地方-62523786.mp3
+Time: 172
+Artist: ÀîÖ¾
+Title: ÔÚÄÇÒ£Ô¶µÄµØ·½
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 34
+mtime: 1390738052
+song_end
+song_begin: 李志-再见-62523787.mp3
+Time: 89
+Artist: ÀîÖ¾
+Title: ÔÙ¼û
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 35
+mtime: 1390738017
+song_end
+song_begin: 李志-你离开了南京，从此没有人和我说话-62523788.mp3
+Time: 72
+Artist: ÀîÖ¾
+Title: ÄãÀë¿ªÁËÄÏ¾©£¬´Ó´ËÃ»ÓÐÈËºÍÎÒËµ»°
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 36
+mtime: 1390738021
+song_end
+song_begin: 李志-董卓瑶-62523789.mp3
+Time: 198
+Artist: ÀîÖ¾
+Title: ¶­×¿Ñþ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 37
+mtime: 1390738022
+song_end
+song_begin: 李志-春末的南方城市-62523790.mp3
+Time: 247
+Artist: ÀîÖ¾
+Title: ´ºÄ©µÄÄÏ·½³ÇÊÐ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 38
+mtime: 1390738042
+song_end
+song_begin: 李志-广场-62523791.mp3
+Time: 251
+Artist: ÀîÖ¾
+Title: ¹ã³¡
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 39
+mtime: 1390738021
+song_end
+song_begin: 李志-梵高先生-62523792.mp3
+Time: 250
+Artist: ÀîÖ¾
+Title: èó¸ßÏÈÉú
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 40
+mtime: 1390738049
+song_end
+song_begin: 李志-斜-62523793.mp3
+Time: 217
+Artist: ÀîÖ¾
+Title: Ð±
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 41
+mtime: 1390738053
+song_end
+song_begin: 李志-黑色信封-62523794.mp3
+Time: 287
+Artist: ÀîÖ¾
+Title: ºÚÉ«ÐÅ·â
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 42
+mtime: 1390738041
+song_end
+song_begin: 李志-阿兰-62523795.mp3
+Time: 166
+Artist: ÀîÖ¾
+Title: °¢À¼
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 43
+mtime: 1390738032
+song_end
+song_begin: 李志-青春-62523796.mp3
+Time: 193
+Artist: ÀîÖ¾
+Title: Çà´º
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 44
+mtime: 1390738046
+song_end
+song_begin: 李志-离婚-62523797.mp3
+Time: 296
+Artist: ÀîÖ¾
+Title: Àë»é
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 45
+mtime: 1390738048
+song_end
+song_begin: 李志-欢愉-62523798.mp3
+Time: 207
+Artist: ÀîÖ¾
+Title: »¶Óä
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 46
+mtime: 1390738056
+song_end
+song_begin: 李志-卡夫卡-62523799.mp3
+Time: 177
+Artist: ÀîÖ¾
+Title: ¿¨·ò¿¨
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 47
+mtime: 1390738054
+song_end
+song_begin: 李志-被禁忌的游戏-62523800.mp3
+Time: 378
+Artist: ÀîÖ¾
+Title: ±»½û¼ÉµÄÓÎÏ·
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 48
+mtime: 1390738058
+song_end
+song_begin: 李志-罗庄的冬天-62523801.mp3
+Time: 411
+Artist: ÀîÖ¾
+Title: ÂÞ×¯µÄ¶¬Ìì
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 49
+mtime: 1390738052
+song_end
+song_begin: 李志-红色气球-62523802.mp3
+Time: 173
+Artist: ÀîÖ¾
+Title: ºìÉ«ÆøÇò
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 50
+mtime: 1390738049
+song_end
+song_begin: 李志-妈妈-62523803.mp3
+Time: 244
+Artist: ÀîÖ¾
+Title: ÂèÂè
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 51
+mtime: 1390738035
+song_end
+song_begin: 李志-喀纳斯-62523804.mp3
+Time: 320
+Artist: ÀîÖ¾
+Title: ¿¦ÄÉË¹
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 52
+mtime: 1390738051
+song_end
+song_begin: 李志-和你在一起-62523805.mp3
+Time: 252
+Artist: ÀîÖ¾
+Title: ºÍÄãÔÚÒ»Æð
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 53
+mtime: 1390738039
+song_end
+song_begin: 李志-翁庆年的六英镑-62523806.mp3
+Time: 257
+Artist: ÀîÖ¾
+Title: ÎÌÇìÄêµÄÁùÓ¢°÷
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 54
+mtime: 1390738030
+song_end
+song_begin: 李志-我们不能失去信仰-62523807.mp3
+Time: 252
+Artist: ÀîÖ¾
+Title: ÎÒÃÇ²»ÄÜÊ§È¥ÐÅÑö
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 55
+mtime: 1390738046
+song_end
+song_begin: 李志-他们-62523808.mp3
+Time: 297
+Artist: ÀîÖ¾
+Title: ËûÃÇ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 56
+mtime: 1390738044
+song_end
+song_begin: 李志-海的女儿-62523809.mp3
+Time: 211
+Artist: ÀîÖ¾
+Title: º£µÄÅ®¶ù
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 57
+mtime: 1390738056
+song_end
+song_begin: 李志-交河-62523810.mp3
+Time: 218
+Artist: ÀîÖ¾
+Title: ½»ºÓ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 58
+mtime: 1390738022
+song_end
+song_begin: 李志-这个世界会好吗-62523811.mp3
+Time: 240
+Artist: ÀîÖ¾
+Title: Õâ¸öÊÀ½ç»áºÃÂð
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 59
+mtime: 1390738037
+song_end
+song_begin: 李志-人民不需要自由-62523812.mp3
+Time: 280
+Artist: ÀîÖ¾
+Title: ÈËÃñ²»ÐèÒª×ÔÓÉ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 60
+mtime: 1390738027
+song_end
+song_begin: 李志-暧昧-62523815.mp3
+Time: 218
+Artist: ÀîÖ¾
+Title: êÓÃÁ
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 63
+Genre: Blues
+mtime: 1390738037
+song_end
+song_begin: 李志-被禁忌的游戏（Live）-62523816.mp3
+Time: 331
+Artist: ÀîÖ¾
+Title: ±»½û¼ÉµÄÓÎÏ·£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 64
+mtime: 1390738026
+song_end
+song_begin: 李志-和你在一起（Live）-62523817.mp3
+Time: 231
+Artist: ÀîÖ¾
+Title: ºÍÄãÔÚÒ»Æð£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 65
+mtime: 1390738033
+song_end
+song_begin: 李志-来了（Live）-62523818.mp3
+Time: 312
+Artist: ÀîÖ¾
+Title: À´ÁË£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 66
+mtime: 1390738016
+song_end
+song_begin: 李志-卡夫卡（Live）-62523819.mp3
+Time: 204
+Artist: ÀîÖ¾
+Title: ¿¨·ò¿¨£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 67
+mtime: 1390738039
+song_end
+song_begin: 李志-黑色信封（Live）-62523820.mp3
+Time: 289
+Artist: ÀîÖ¾
+Title: ºÚÉ«ÐÅ·â£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 68
+mtime: 1390738045
+song_end
+song_begin: 李志-阿兰（Live）-62523821.mp3
+Time: 215
+Artist: ÀîÖ¾
+Title: °¢À¼£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 69
+mtime: 1390738036
+song_end
+song_begin: 李志-春末的南方城市（Live）-62523822.mp3
+Time: 201
+Artist: ÀîÖ¾
+Title: ´ºÄ©µÄÄÏ·½³ÇÊÐ£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 70
+mtime: 1390738018
+song_end
+song_begin: 李志-他们（Live）-62523823.mp3
+Time: 258
+Artist: ÀîÖ¾
+Title: ËûÃÇ£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 71
+mtime: 1390738043
+song_end
+song_begin: 李志-结婚 a.k.a九月（Live）-62523824.mp3
+Time: 353
+Artist: ÀîÖ¾
+Title: ½á»é a.k.a¾ÅÔÂ£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 72
+mtime: 1390738057
+song_end
+song_begin: 李志-这个世界会好吗（Live）-62523825.mp3
+Time: 257
+Artist: ÀîÖ¾
+Title: Õâ¸öÊÀ½ç»áºÃÂð£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 73
+mtime: 1390738041
+song_end
+song_begin: 李志-红色气球（Live）-62523826.mp3
+Time: 221
+Artist: ÀîÖ¾
+Title: ºìÉ«ÆøÇò£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 74
+mtime: 1390738054
+song_end
+song_begin: 李志-董卓瑶（Live）-62523827.mp3
+Time: 199
+Artist: ÀîÖ¾
+Title: ¶­×¿Ñþ£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 75
+mtime: 1390738031
+song_end
+song_begin: 李志-青春（Live）-62523828.mp3
+Time: 144
+Artist: ÀîÖ¾
+Title: Çà´º£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 76
+mtime: 1390738032
+song_end
+song_begin: 李志-想起了她（Live Bonus Track）-62523829.mp3
+Time: 274
+Artist: ÀîÖ¾
+Title: ÏëÆðÁËËý£¨Live Bonus Track£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 77
+mtime: 1390738027
+song_end
+song_begin: 李志-暧昧（Live）-62523830.mp3
+Time: 194
+Artist: ÀîÖ¾
+Title: êÓÃÁ£¨Live£©
+Album: ÀîÖ¾ºÏ¼­£¨2005-2011£©
+Track: 78
+mtime: 1390738026
+song_end
+end: 72
+directory: classic
+mtime: 1394119499
+begin: classic
+song_begin: 01. Backstreet Boys - In A World Like This.wav
+Time: 220
+mtime: 1393946213
+song_end
+song_begin: B.W.O-Sunshine In The Rain.ape
+Time: 241
+Artist: B.W.O
+Title: Sunshine In The Rain
+mtime: 1393955347
+song_end
+song_begin: Backstreet Boys-As Long As You Love Me.flac
+Time: 223
+mtime: 1393946050
+song_end
+song_begin: Backstreet Boys-I Want It That Way.ape
+Time: 215
+Artist: Back street Boys
+Title: I Want It That Way
+mtime: 1393948969
+song_end
+song_begin: Morgan Page feat. Tegan & Sara - Body Work (Revolvr Remix).mp3
+Time: 303
+Title: Morgan Page feat. Tegan & Sara - Body Work (Revolvr Remix)
+mtime: 1393627536
+song_end
+song_begin: When You Tell Me That You Love Me - Julio Iglesias &amp; Dolly Parton.mp3
+Time: 240
+Title: When You Tell Me That You Love Me - Julio Iglesias &amp; Dolly Parton
+mtime: 1393891381
+song_end
+song_begin: all for one - one for all.mp3
+Time: 347
+Title: all for one - one for all
+mtime: 1393946589
+song_end
+song_begin: boyzone - no matter what.mp3
+Time: 280
+mtime: 1393946575
+song_end
+song_begin: James Blunt - You're Beautiful.ape
+Time: 213
+Artist: James Blunt
+Album: 2007 Grammy Nominees
+Title: You're Beautiful
+Track: 02
+Genre:  
+mtime: 1393947246
+song_end
+song_begin: Backstreet Boys - I Will Be There For you.mp3
+Time: 276
+Title: 后街男孩-I'll be there for you
+Artist: Backstreet Boys
+Album: Backstreet Boys精选集
+Genre: Other
+mtime: 1393948247
+song_end
+song_begin: Westlife - (03) I Lay My Love on You (Single Remix).flac
+Time: 210
+Track: 03
+Title: I Lay My Love on You (Single Remix)
+Artist: Westlife
+Album: Coast to Coast
+Genre:  
+mtime: 1393945950
+song_end
+song_begin: Westlife - (19) My Girl.flac
+Time: 174
+Track: 19
+Title: My Girl
+Artist: Westlife
+Album: Coast to Coast
+Genre:  
+mtime: 1393945370
+song_end
+song_begin: When You Tell Me That You Love Me - Julio Iglesias.flac
+Time: 241
+Artist: Julio Iglesias
+Title: When You Tell Me That You Love Me
+Album: Crazy
+Date: 1994
+Track: 06
+Genre: Latin
+Disc: 1
+mtime: 1393943806
+song_end
+song_begin: 02 When You Tell Me That You Love Me.APE
+Time: 238
+Artist: Westlife
+Album: Face To Face
+Title: When You Tell Me That You Love Me
+Track: 02
+Genre: Pop
+Date: 2005
+mtime: 1393944747
+song_end
+song_begin: Westlife - (02) When You Tell Me That You Love Me.flac
+Time: 239
+Track: 02
+Title: When You Tell Me That You Love Me
+Artist: Westlife
+Album: Face To Face
+Genre:  
+mtime: 1393945055
+song_end
+song_begin: Sting - Shape Of My Heart.flac
+Time: 278
+Title: Shape Of My Heart
+Artist: Sting
+Album: Fifteen Healing Bites
+mtime: 1369272144
+song_end
+song_begin: All For One.mp3
+Time: 254
+Artist: Imagination Movers
+Title: All For One
+Album: High School Musical 2
+Date: 2009
+mtime: 1393946581
+song_end
+song_begin: jessica simpson - when you told me you loved me.flac
+Time: 229
+Title: When You Told Me You Loved Me
+Artist: Jessica Simpson
+Album: Irresistible
+Date: 2001-05-31
+mtime: 1393891033
+song_end
+song_begin: Diana Ross - When You Tell Me That You Love Me.mp3
+Time: 251
+Artist: Diana Ross
+AlbumArtist: Various
+Title: When You Tell Me That You Love Me
+Album: Now That's What I Call Music! 21
+Track: 17/17
+Date: 1992
+Genre: Pop
+Disc: 2/2
+mtime: 1393890665
+song_end
+song_begin: M2M - The Day You Went Away.ape
+Time: 221
+Artist: M2M
+Album: Shades of Purple
+Title: The day you went away
+mtime: 1393948249
+song_end
+song_begin: Westlife - (01) The Rose.flac
+Time: 218
+Track: 01
+Title: The Rose
+Artist: Westlife
+Album: The Love Album
+Genre:  
+mtime: 1393947454
+song_end
+song_begin: Westlife - (07) My Love (Radio Edit).flac
+Time: 234
+Track: 07
+Title: My Love (Radio Edit)
+Artist: Westlife
+Album: Unbreakable : The Greatest Hits Vol.1
+Genre:  
+mtime: 1393945709
+song_end
+song_begin: Westlife - (08) I Lay My Love On You.flac
+Time: 210
+Track: 08
+Title: I Lay My Love On You
+Artist: Westlife
+Album: Unbreakable : The Greatest Hits Vol.1
+Genre:  
+mtime: 1393945853
+song_end
+song_begin: 交谊舞曲 - 友谊天长地久 - 慢三 卖花.mp3
+Time: 502
+Title: 05.慢三 友谊天长地久+卖花姑娘+
+Artist: 杜华云收藏
+Album: VCD悲情歌伴舞2(A)
+Track: 5
+Genre: Other
+mtime: 1393892607
+song_end
+song_begin: Backstreet Boys - Shape Of My Heart.ape
+Time: 230
+Artist: 精灵蝶儿&侜佟 www.520hjl.com
+Album: www.520hjl.com 海精灵音乐美图网
+Title: Shape Of My Heart
+Track: 2
+Genre: www.520hjl.com 
+Composer: 侜佟和精灵蝶儿相亲相爱，永不分离
+Performer: 侜佟和精灵蝶儿相亲相爱，永不分离
+Date: www.520hjl.com 
+mtime: 1393950151
+song_end
+song_begin: 慢三 友谊地久天长.mp3
+Time: 361
+Artist: www.jywjx.cn
+Title: www.jywjx.cn
+Album: www.jywjx.cn
+Track: 32
+mtime: 1393892544
+song_end
+song_begin: Kiss The Rain.ape
+Time: 260
+Artist: Yiruma(李闰珉)
+Album: 蓝色生死恋主题音乐
+Title: Kiss The Rain 雨的印记
+mtime: 1393948537
+song_end
+end: classic
+directory: lizhi
+mtime: 1390738006
+begin: lizhi
+song_begin: 01 她+我们不能失去信仰+1990年的春天.mp3
+Time: 957
+Date: 2013
+Artist: 李志
+Album: 108个关键词
+Title: 她+我们不能失去信仰+1990年的春天
+mtime: 1390737996
+song_end
+song_begin: 01 忽然.mp3
+Time: 193
+Date: 2013
+Title: 忽然
+Artist: 李志
+Album: 108个关键词
+mtime: 1390738003
+song_end
+song_begin: 02 墙上的向日葵.mp3
+Time: 528
+Date: 2013
+Artist: 李志
+Album: 108个关键词
+Title: 墙上的向日葵
+mtime: 1390738006
+song_end
+song_begin: 02 董卓瑶.mp3
+Time: 197
+Date: 2013
+Artist: 李志
+Title: 董卓瑶
+Album: 108个关键词
+mtime: 1390737998
+song_end
+song_begin: 03 阿兰.mp3
+Time: 262
+Date: 2013
+Title: 阿兰
+Artist: 李志
+Album: 108个关键词
+mtime: 1390738001
+song_end
+song_begin: 03 黑色信封.mp3
+Time: 325
+Date: 2013
+Artist: 李志
+Title: 黑色信封
+Album: 108个关键词
+mtime: 1390738005
+song_end
+song_begin: 04 下雨.mp3
+Time: 315
+Date: 2013
+Title: 下雨
+Artist: 李志
+Album: 108个关键词
+mtime: 1390738001
+song_end
+song_begin: 04 和你在一起.mp3
+Time: 211
+Date: 2013
+Artist: 李志
+Title: 和你在一起
+Album: 108个关键词
+mtime: 1390737990
+song_end
+song_begin: 05 关于郑州的记忆.mp3
+Time: 233
+Date: 2013
+Artist: 李志
+Album: 108个关键词
+Title: 关于郑州的记忆
+mtime: 1390738002
+song_end
+song_begin: 05 尽头.mp3
+Time: 288
+Date: 2013
+Title: 尽头
+Artist: 李志
+Album: 108个关键词
+mtime: 1390738007
+song_end
+song_begin: 06 来了.mp3
+Time: 528
+Date: 2013
+Title: 来了
+Artist: 李志
+Album: 108个关键词
+mtime: 1390737998
+song_end
+song_begin: 06 青春.mp3
+Time: 164
+Date: 2013
+Title: 青春
+Artist: 李志
+Album: 108个关键词
+mtime: 1390737991
+song_end
+song_begin: 07 人民不需要自由.mp3
+Time: 488
+Date: 2013
+Artist: 李志
+Album: 108个关键词
+Title: 人民不需要自由
+mtime: 1390737992
+song_end
+song_begin: 07 倒影.mp3
+Time: 165
+Date: 2013
+Title: 倒影
+Artist: 李志
+Album: 108个关键词
+mtime: 1390738003
+song_end
+song_begin: 08 山阴路的夏天.mp3
+Time: 315
+Date: 2013
+Artist: 李志
+Album: 108个关键词
+Title: 山阴路的夏天
+mtime: 1390737999
+song_end
+song_begin: 09 姐姐.mp3
+Time: 409
+Date: 2013
+Title: 姐姐
+Artist: 张楚
+Album: 108个关键词
+mtime: 1390737989
+song_end
+end: lizhi
+directory: noperson
+mtime: 1390738015
+begin: noperson
+song_begin: 01 被禁忌的游戏.mp3
+Time: 331
+mtime: 1390738010
+song_end
+song_begin: 02 和你在一起.mp3
+Time: 231
+mtime: 1390738012
+song_end
+song_begin: 03 来了.mp3
+Time: 323
+mtime: 1390738013
+song_end
+song_begin: 04 卡夫卡.mp3
+Time: 204
+mtime: 1390738014
+song_end
+song_begin: 05 黑色信封.mp3
+Time: 289
+mtime: 1390738012
+song_end
+song_begin: 06 阿兰.mp3
+Time: 215
+mtime: 1390738015
+song_end
+song_begin: 07 春末的南方城市.mp3
+Time: 201
+mtime: 1390738015
+song_end
+song_begin: 08 他们.mp3
+Time: 258
+mtime: 1390738011
+song_end
+song_begin: 09 暧昧.mp3
+Time: 194
+mtime: 1390738011
+song_end
+song_begin: 10 九月.mp3
+Time: 265
+mtime: 1390738010
+song_end
+song_begin: 11 这个世界会好么.mp3
+Time: 257
+mtime: 1390738014
+song_end
+song_begin: 12 红色气球.mp3
+Time: 221
+mtime: 1390738012
+song_end
+song_begin: 13 月亮代表我的心.mp3
+Time: 110
+mtime: 1390738008
+song_end
+song_begin: 14 董卓瑶.mp3
+Time: 199
+mtime: 1390738013
+song_end
+song_begin: 15 青春.mp3
+Time: 144
+mtime: 1390738009
+song_end
+song_begin: 16 想起了他.mp3
+Time: 776
+mtime: 1390738009
+song_end
+end: noperson
+directory: other
+mtime: 1393629719
+begin: other
+song_begin: Morgan Page feat. Tegan & Sara - Body Work (Revolvr Remix).mp3
+Time: 303
+Title: Morgan Page feat. Tegan & Sara - Body Work (Revolvr Remix)
+mtime: 1393629719
+song_end
+song_begin: dabeizhou.mp3
+Time: 466
+mtime: 1390738075
+song_end
+song_begin: 刘若英 - 我们没有在一起.wav
+Time: 279
+mtime: 1390738080
+song_end
+song_begin: 林忆莲-至少还有你.ape
+Time: 272
+mtime: 1390738074
+song_end
+song_begin: morgan page - the longest road feat. lissie.mp3
+Time: 343
+Artist: Morgan Page
+Title: The Longest Road feat. Lissie
+Album: Elevate
+Track: 1/13
+mtime: 1393629719
+song_end
+song_begin: 林忆莲 - 听说爱情回来过.ape
+Time: 317
+Artist: [来自：www.ape520.com]林忆莲
+Album: [来自：www.ape520.com]
+Title: 听说爱情回来过
+Genre: [来自：www.ape520.com]
+mtime: 1390738071
+song_end
+song_begin: dari_rulai.mp3
+Time: 314
+Artist: ¦ò¸g
+Title: ¬s¿c¾B¨º¦ò©G
+Album: unknown
+Genre: Samba
+mtime: 1390738068
+song_end
+song_begin: 王力宏＆彭羚 - 让我取暖.ape
+Time: 270
+Artist: 彭羚&王力宏
+Album: 好好爱
+Title: 让我取暖
+Track: 3
+Date: 1999-10-01
+mtime: 1390738065
+song_end
+song_begin: 最爱的人伤我最深.ape
+Time: 299
+Artist: 张惠妹/张雨生
+Album: 宁波江玉郎收藏
+Title: 最爱的人伤我最深
+mtime: 1390738092
+song_end
+song_begin: 王力宏%26彭羚_-_让我取暖.flac
+Time: 272
+Album: 对唱
+Artist: 王力宏&彭羚
+Title: 让我取暖
+mtime: 1390738062
+song_end
+song_begin: 大悲咒.mp3
+Time: 644
+Artist: 印能法师
+Title: 大悲咒
+Album: 心中的菩提
+Date: 2012
+mtime: 1390738059
+song_end
+song_begin: 林忆莲-伤痕.ape
+Time: 365
+Artist: 深度音乐论坛www.deepms.net
+Album: 深度音乐论坛www.deepms.net
+Title: 伤痕
+mtime: 1390738083
+song_end
+song_begin: 陈慧娴 - 千千阙歌 - 粤语版 Ape 无损 (1).ape
+Time: 299
+Artist: 陈慧娴
+Album: 深度音乐论坛www.deepms.net！
+Title: 千千阙歌
+Genre: 深度音乐论坛www.deepms
+Composer: 侜佟和蝶儿相亲相爱，永不分离！
+Date: www.520hjl.com
+mtime: 1390738087
+song_end
+song_begin: 陈慧娴 - 千千阙歌 - 粤语版 Ape 无损.ape
+Time: 299
+Artist: 陈慧娴
+Album: 深度音乐论坛www.deepms.net！
+Title: 千千阙歌
+Genre: 深度音乐论坛www.deepms
+Composer: 侜佟和蝶儿相亲相爱，永不分离！
+Date: www.520hjl.com
+mtime: 1390738089
+song_end
+song_begin: 刘若英 - 我们没有在一起.flac
+Time: 280
+Title: 刘若英 - 我们没有在一起
+Album: 磨坊高品质音乐论坛-MOOFEEL.COM
+mtime: 1390738068
+song_end
+end: other
+song_begin: 刘若英 - 我们没有在一起.wav
+Time: 279
+mtime: 1391609613
+song_end
+song_begin: 夜空中最亮的星-remix.WAV
+Time: 252
+mtime: 1380972859
+song_end
+song_begin: 夜空中最亮的星.wav
+Time: 252
+mtime: 1381925516
+song_end
+song_begin: When You Tell Me That You Love Me.APE
+Time: 238
+Artist: Westlife
+Album: Face To Face
+Title: When You Tell Me That You Love Me
+Track: 02
+Genre: Pop
+Date: 2005
+mtime: 1393944747
+song_end
+song_begin: 刘若英 - 我们没有在一起.flac
+Time: 280
+Title: 刘若英 - 我们没有在一起
+Album: 磨坊高品质音乐论坛-MOOFEEL.COM
+mtime: 1391609770
+song_end
