@@ -60,7 +60,7 @@ end
 beautiful.init("~/.config/awesome/themes/zenburn/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xfce4-terminal -e tmux"
+terminal = "xfce4-terminal -e 'tmux -2'"
 editor = "vim"
 editor_cmd = editor
 

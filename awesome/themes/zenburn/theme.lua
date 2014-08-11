@@ -8,7 +8,7 @@
 
 -- {{{ Main
 theme = {}
-theme.wallpaper = "/home/zjz311/.config/awesome/wallpapers/elefanto_wallpaper.png"
+theme.wallpaper = "/home/zjz311/.config/awesome/wallpapers/green.jpg"
 -- }}}
 
 -- {{{ Styles
