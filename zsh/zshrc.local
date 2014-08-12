@@ -72,6 +72,7 @@ alias pfind='ps aux | grep'
 alias dns="sudo vim /etc/resolv.conf"
 alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
 alias helisp="zathura ~/all/emacs/introduction_to_programming_in_emacs_lisp.pdf &"
+alias ack='ack --color'
 
 alias -g XS='"$(xsel)"'
 
