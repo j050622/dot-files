@@ -52,23 +52,9 @@ end
 -- Themes define colours, icons, and wallpapers
 beautiful.init("~/.config/awesome/themes/zenburn/theme.lua")
 
-local function ftmux()
-    local tmux = "tmux -2"
-
-    local shell = "tmux ls | head -1 | awk -F: '{print $1}'"
-    local handle = io.popen(shell)
-    local num = handle:read("*a")
-    handle:close()
-
-    if result ~= "" then
-        tmux = "tmux -2 attach -t " .. num
-    end
-
-    return tmux
-end
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xfce4-terminal -e ' " .. ftmux() .. " '"
+terminal = "xfce4-terminal -e 'tmux -2'"
 editor = "vim"
 editor_cmd = editor
 
