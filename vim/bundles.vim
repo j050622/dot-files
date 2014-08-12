@@ -123,6 +123,16 @@ Bundle 'jcf/vim-latex'
 "--------------
 Bundle 'nblock/vim-dokuwiki'
 
+"--------------
+" PLS
+"--------------
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-lua-ftplugin'
+let g:lua_compiler_name = '/usr/bin/luac5.1'
+let g:lua_check_globals = 1
+let g:lua_check_syntax = 1
+
+
 " enable filetype dectection and ft specific plugin/indent
 filetype plugin indent on     " required!
 
