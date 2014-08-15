@@ -44,6 +44,9 @@ fcitx &
 #sudo modprobe ip_conntrack_ftp
 #sudo mount --bind ~/mcm/ /srv/ftp
 
+# load virtualbox modual to enable bridged network
+sudo modprobe vboxnetflt
+
 exec startxfce4
 
 #Autostart START

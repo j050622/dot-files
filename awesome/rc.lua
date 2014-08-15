@@ -255,6 +255,8 @@ globalkeys = awful.util.table.join(
                 awful.client.movetotag(tags[client.focus.screen][curidx - 1])
             end
             awful.tag.viewidx(-1)
+            awful.client.focus.byidx(1)
+            if client.focus then client.focus:raise() end
         end),
     awful.key({ modkey, "Shift"   }, "Right",
         function (c)
@@ -265,6 +267,8 @@ globalkeys = awful.util.table.join(
                 awful.client.movetotag(tags[client.focus.screen][curidx + 1])
             end
             awful.tag.viewidx(1)
+            awful.client.focus.byidx(1)
+            if client.focus then client.focus:raise() end
         end),
 
     awful.key({ modkey,           }, "Escape",
@@ -274,11 +278,13 @@ globalkeys = awful.util.table.join(
             if client.focus then
                 client.focus:raise()
             end
+            awful.client.focus.byidx(1)
+            if client.focus then client.focus:raise() end
         end),
 
     awful.key({ modkey,           }, "j",
         function ()
-            awful.client.focus.byidx( 1)
+            awful.client.focus.byidx(1)
             if client.focus then client.focus:raise() end
         end),
     awful.key({ modkey,           }, "k",
@@ -402,7 +408,9 @@ for i = 1, 9 do
                         local tag = awful.tag.gettags(screen)[i]
                         if tag then
                            awful.tag.viewonly(tag)
-                        end
+                       end
+                       awful.client.focus.byidx(1)
+                       if client.focus then client.focus:raise() end
                   end),
         awful.key({ modkey, "Control" }, "#" .. i + 9,
                   function ()
@@ -486,8 +494,6 @@ awful.rules.rules = {
     --
     { rule_any = { instance = { "fg742p.exe", "u1303.exe", "IEXPLORE.EXE" } },
           properties = { tag = tags[1][8] } },
-    { rule_any = { class = { "VirtualBox" } },
-          properties = { tag = tags[1][9] } },
     --
     { rule_any = { instance = {'TM.exe', 'QQ.exe'} },
           properties = {
