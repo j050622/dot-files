@@ -41,6 +41,8 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'tpope/vim-repeat'
+
 " Fileencoding
 Bundle 'vim-scripts/FencView.vim'
 
@@ -58,6 +60,12 @@ Bundle 'tpope/vim-fugitive'
 Bundle "bling/vim-airline"
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+
+"-------------
+" Tmux
+"-------------
+Bundle 'jgdavey/tslime.vim'
+Bundle 'jgdavey/vim-turbux'
 
 "-------------
 " Other Utils
@@ -86,6 +94,7 @@ Bundle 'nono/jquery.vim'
 
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
+"Bundle 'jceb/vim-orgmode'
 "Bundle 'timcharper/textile.vim'
 
 "------- Ruby --------
@@ -272,3 +281,19 @@ nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
 nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
+
+" Settings for repl with tmux
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Slime
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+vmap <silent> <Leader>rs <Plug>SendSelectionToTmux
+nmap <silent> <Leader>rs <Plug>NormalModeSendToTmux
+nmap <silent> <Leader>rv <Plug>SetTmuxVars
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Turbux
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:no_turbux_mappings = 1
+nmap <leader>rT <Plug>SendTestToTmux
+nmap <leader>rt <Plug>SendFocusedTestToTmux

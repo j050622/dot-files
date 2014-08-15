@@ -61,6 +61,21 @@ set expandtab       " expand tab to space
 set listchars=tab:>-,trail:-
 set list
 
+" Delete trailing white space on save
+func! DeleteTrailingWS()
+    exe "normal mz"
+    %s/\s\+$//ge
+    exe "normal `z"
+endfunc
+
+augroup whitespace
+    autocmd!
+    autocmd BufWrite *.py :call DeleteTrailingWS()
+    autocmd BufWrite *.coffee :call DeleteTrailingWS()
+    autocmd BufWrite *.rb :call DeleteTrailingWS()
+augroup END
+
+
 " statusline
 "set statusline=
 "            \\ %F%m%r%h%w\ [ASCII=\%03.3b]\ [HEX=\%02.2B]
