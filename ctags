@@ -1,0 +1,5 @@
+--langdef=LUAA
+--langmap=LUAA:.lua
+--regex-LUAA=/^[^=]*?function[ \t]*?([a-zA-Z0-9_:.(,)]+).*?$/\1/f,functions/
+--regex-LUAA=/^\s*?([a-zA-Z0-9_]+)[ \t]*?=[ \t]*?function.*?$/\1/f,functions/
+--regex-LUAA=/^[ \t]*?([a-zA-Z0-9_]+)[ \t]*=.*$/\1/v,variables/

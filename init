@@ -9,3 +9,4 @@ ln -sf ~/dotfiles/xinitrc                 ~/.xinitrc
 ln -sf ~/dotfiles/zsh/zshrc               ~/.zshrc
 ln -sf ~/dotfiles/vimperator              ~/.vimperator
 ln -sf ~/dotfiles/awesome                 ~/.config/awesome
+ln -sf ~/dotfiles/ctags                   ~/.ctags

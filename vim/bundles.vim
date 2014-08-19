@@ -219,6 +219,16 @@ if executable('coffeetags')
     \ }
 endif
 
+" help doc -> tagbar.txt && ctags config file
+let g:tagbar_type_lua = {
+    \ 'ctagstype' : 'LUAA',
+    \ 'kinds' : [
+        \ 'f:functions',
+        \ 'v:variables',
+    \ ],
+\ }
+
+
 " Nerd Tree
 let NERDChristmasTree=0
 let NERDTreeWinSize=30
