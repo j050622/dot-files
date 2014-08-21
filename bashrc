@@ -54,12 +54,3 @@ alias ps="ps aux"
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
-
-# global
-#export EDITOR="vim"
-#set -o vi
-#alias ls='ls --color=auto'
-#alias ll='ls -hl --color=auto'
-#alias rm='rm -i'
-#[[ -s ~/.autojump/etc/profile.d/autojump.bash ]] \
-#    && . ~/.autojump/etc/profile.d/autojump.bash
