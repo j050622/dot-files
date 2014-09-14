@@ -465,7 +465,7 @@ awful.rules.rules = {
       properties = { callback = awful.placement.centered } },
     -- xfce4-terminal
     { rule = { instance = "xfce4-terminal" },
-      properties = { geometry = { x = 500, y = 250 } } },
+      properties = { geometry = { x = 150, y = 150 } } },
     --
     -- { rule_any = { class = { "MPlayer", "Evince", "Gimp" } },
     --       properties = { floating = true } },
