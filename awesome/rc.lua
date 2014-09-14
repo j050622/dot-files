@@ -10,17 +10,24 @@ local beautiful = require("beautiful")
 -- Notification library
 local naughty = require("naughty")
 local menubar = require("menubar")
+-- Generated XDG menu
+-- require ("xdgmenu")
 
--- Auto startup
-local function run_once(cmd)
-    awful.util.spawn_with_shell("ps aux | grep " .. cmd .. " | grep -v grep > /dev/null || (" .. cmd .. ")")
+-- AutoStartUp
+function run_once(cmd)
+    findme = cmd
+    firstspace = cmd:find(" ")
+    if firstspace then
+        findme = cmd:sub(0, firstspace-1)
+    end
+    awful.util.spawn_with_shell("ps aux | grep " .. findme .. " | grep -v grep > /dev/null || (" .. cmd .. ")")
 end
 
 run_once("conky")
 run_once("xcompmgr &")
 run_once("volwheel")
-run_once("sudo fstrim -v /")
 -- run_once("nm-applet")
+run_once("sudo fstrim -v /")
 -- run_once("xfce4-panel")
 
 -- {{{ Error handling
@@ -51,7 +58,6 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
 beautiful.init("~/.config/awesome/themes/zenburn/theme.lua")
-
 
 -- This is used later as the default terminal and editor to run.
 terminal = "xfce4-terminal -e 'tmux -2'"
@@ -255,8 +261,6 @@ globalkeys = awful.util.table.join(
                 awful.client.movetotag(tags[client.focus.screen][curidx - 1])
             end
             awful.tag.viewidx(-1)
-            awful.client.focus.byidx(1)
-            if client.focus then client.focus:raise() end
         end),
     awful.key({ modkey, "Shift"   }, "Right",
         function (c)
@@ -267,8 +271,6 @@ globalkeys = awful.util.table.join(
                 awful.client.movetotag(tags[client.focus.screen][curidx + 1])
             end
             awful.tag.viewidx(1)
-            awful.client.focus.byidx(1)
-            if client.focus then client.focus:raise() end
         end),
 
     awful.key({ modkey,           }, "Escape",
@@ -278,13 +280,11 @@ globalkeys = awful.util.table.join(
             if client.focus then
                 client.focus:raise()
             end
-            awful.client.focus.byidx(1)
-            if client.focus then client.focus:raise() end
         end),
 
     awful.key({ modkey,           }, "j",
         function ()
-            awful.client.focus.byidx(1)
+            awful.client.focus.byidx( 1)
             if client.focus then client.focus:raise() end
         end),
     awful.key({ modkey,           }, "k",
@@ -309,7 +309,6 @@ globalkeys = awful.util.table.join(
         end),
 
     -- Standard program
-    awful.key({ modkey,           }, "s",     function () awful.util.spawn_with_shell("sleep 0.5 && scrot -s") end),
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     --awful.key({ modkey, "Shift"   }, "q", awesome.quit),
@@ -408,9 +407,7 @@ for i = 1, 9 do
                         local tag = awful.tag.gettags(screen)[i]
                         if tag then
                            awful.tag.viewonly(tag)
-                       end
-                       awful.client.focus.byidx(1)
-                       if client.focus then client.focus:raise() end
+                        end
                   end),
         awful.key({ modkey, "Control" }, "#" .. i + 9,
                   function ()
@@ -450,7 +447,6 @@ root.keys(globalkeys)
 -- }}}
 
 -- {{{ Rules
--- Rules to apply to new clients (through the "manage" signal).
 awful.rules.rules = {
     -- All clients will match this rule.
     { rule = { },
@@ -494,6 +490,8 @@ awful.rules.rules = {
     --
     { rule_any = { instance = { "fg742p.exe", "u1303.exe", "IEXPLORE.EXE" } },
           properties = { tag = tags[1][8] } },
+    { rule_any = { class = { "VirtualBox" } },
+          properties = { tag = tags[1][9] } },
     --
     { rule_any = { instance = {'TM.exe', 'QQ.exe'} },
           properties = {
@@ -581,21 +579,26 @@ client.connect_signal("manage", function (c, startup)
     end
 end)
 
--- {{{
+-- client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus c.opacity = 1 end)
+-- client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
+client.connect_signal("focus", function(c) c.border_color = "#21A675" c.opacity = 1 end)
+client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
+
 -- Voice Functional
-local function volume_toggle ()
-    awful.util.spawn("amixer set Master toggle" )
+
+function volume_toggle ()
+    awful.util.spawn ("amixer set Master toggle" )
 end
 
-local function volume_up ()
-    awful.util.spawn("amixer set Master 5%+" )
+function volume_up ()
+    awful.util.spawn ("amixer set Master 5%+" )
 end
 
-local function volume_down ()
-    awful.util.spawn("amixer set Master 5%-" )
+function volume_down ()
+    awful.util.spawn ("amixer set Master 5%-" )
 end
 
--- whether the panel is xfce4-panel
+-- Xfce4-panel Control
 function getPanel (c)
     return awful.rules.match(c, {class = "Xfce4-panel"})
 end
@@ -619,17 +622,10 @@ function myfocus_filter(c)
      end
 end
 
-local function bind_alt_switch_tab_keys(client)
+function bind_alt_switch_tab_keys(client)
     client:keys(awful.util.table.join(client:keys(), alt_switch_keys))
 end
--- }}}
 
-
-
-client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus c.opacity = 1 end)
-client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
-client.connect_signal("focus", function(c) c.border_color = "#21A675" c.opacity = 1 end)
-client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
 client.connect_signal("manage", function (c, startup)
     -- other configurations
     if c.instance == "explorer.exe" then
