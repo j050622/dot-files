@@ -115,7 +115,9 @@ sshl() {
 }
 
 ack2() {
-    ack --type-set=$1=.$1 --$1 $2 $3 $4
+    ext=$1
+    shift
+    ack --type-set=$ext=.$ext --$ext $@
 }
 
 # z jump
