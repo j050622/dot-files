@@ -2,3 +2,4 @@ vimperator/info/default/*
 mpd/*
 
 !mpd/mpd.conf
+!mpd/ncmpcpp
