@@ -7,11 +7,6 @@ export PATH=~/.pyenv/shims:$PATH
 
 # Set up auto extension stuff
 alias -s html=$BROWSER
-alias -s py=vim
-alias -s js=vim
-alias -s c=vi
-alias -s java=vi
-alias -s txt=vi
 alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
@@ -27,8 +22,6 @@ alias -s gif=ristretto
 alias -s doc=libreoffice
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
-alias -s java=$EDITOR
-alias -s txt=$EDITOR
 alias -s PKGBUILD=$EDITOR
 alias -s mp4=smplayer
 alias -s avi=smplayer
@@ -118,7 +111,7 @@ ack2() {
     ext=$1
     shift
     ext_t=${ext}_t
-    ack --type-set=$ext_t=.$ext --$ext_t $@
+    ack --type-set=$ext_t=.$ext --$ext_t --smart-case $@
 }
 
 # z jump
