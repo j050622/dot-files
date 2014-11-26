@@ -103,8 +103,13 @@ upto() {
     cd "${PWD/\/$@\/*//$@}"
 }
 
+sshp() {
+    ssh -o ServerAliveInterval=60 root@124.160.114.$1 -p 65422
+}
+
 sshl() {
-    ssh root@124.160.114.$1 -p 65422
+    suffix=$1
+    ssh -o ServerAliveInterval=60 -L 21${suffix}:192.168.21.${suffix}:65422 root@124.160.114.202 -p 65422
 }
 
 ack2() {
