@@ -119,6 +119,26 @@ ack2() {
     ack --type-set=$ext_t=.$ext --$ext_t --smart-case $@
 }
 
+json2() {
+    node -e "console.log(JSON.stringify(JSON.parse(process.argv[1]), null, 2));" $1
+}
+
+s1() {
+
+title=`date`
+python << EOF
+import py
+import sys
+
+markup = {'red': True, 'bold': True}
+
+tw = py.io.TerminalWriter(sys.stdout)
+
+tw.line()
+tw.sep('-', '$title', **markup)
+EOF
+}
+
 # z jump
 
 ##################################################################
@@ -127,3 +147,6 @@ ack2() {
 autoload -Uz history-beginning-search-menu
 zle -N history-beginning-search-menu
 bindkey '^X^X' history-beginning-search-menu
+
+TAG="\n\n\033[0;32m\#\#\# "
+END=" \#\#\# \033[0m\n"
