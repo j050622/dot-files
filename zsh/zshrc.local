@@ -112,31 +112,29 @@ sshl() {
     ssh -o ServerAliveInterval=60 -L 21${suffix}:192.168.21.${suffix}:65422 root@124.160.114.202 -p 65422
 }
 
-ack2() {
-    ext=$1
-    shift
-    ext_t=${ext}_t
-    ack --type-set=$ext_t=.$ext --$ext_t --smart-case $@
-}
-
 json2() {
     node -e "console.log(JSON.stringify(JSON.parse(process.argv[1]), null, 2));" $1
 }
 
 s1() {
+    title=`date`
+    python <<- EOF
+		import py
+		import sys
+		markup = {'red': True, 'bold': True}
 
-title=`date`
-python << EOF
-import py
-import sys
+		tw = py.io.TerminalWriter(sys.stdout)
 
-markup = {'red': True, 'bold': True}
-
-tw = py.io.TerminalWriter(sys.stdout)
-
-tw.line()
-tw.sep('-', '$title', **markup)
+		tw.sep('-', '$title', **markup)
 EOF
+}
+
+ack2() {
+    ext=$1
+    shift
+    ext_t=${ext}_t
+    s1
+    ack --type-set=$ext_t=.$ext --$ext_t --smart-case $@
 }
 
 # z jump
