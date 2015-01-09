@@ -38,6 +38,7 @@ URxvt.scrollStyle: rxvt
 URxvt.scrollBar: true
 
 ! Perl extensions
+! https://github.com/muennich/urxvt-perls
 URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
 URxvt.url-select.launcher:  firefox
 URxvt.url-select.underline: true

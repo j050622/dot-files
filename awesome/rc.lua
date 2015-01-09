@@ -13,11 +13,11 @@ local menubar = require("menubar")
 
 -- Auto startup
 local function run_once(cmd)
-    awful.util.spawn_with_shell("ps aux | grep " .. cmd .. " | grep -v grep > /dev/null || (" .. cmd .. ")")
+    awful.util.spawn_with_shell("ps aux | grep " .. cmd .. " | grep -v grep > /dev/null || (" .. cmd .. " &)")
 end
 
 run_once("conky")
-run_once("xcompmgr &")
+run_once("xcompmgr")
 run_once("volwheel")
 run_once("sudo fstrim -v /")
 -- run_once("nm-applet")
@@ -181,7 +181,9 @@ mytasklist.buttons = awful.util.table.join(
                                                   instance:hide()
                                                   instance = nil
                                               else
-                                                  instance = awful.menu.clients({ width=250 })
+                                                  instance = awful.menu.clients({
+                                                      theme = { width = 250 }
+                                                  })
                                               end
                                           end),
                      awful.button({ }, 4, function ()
@@ -627,10 +629,9 @@ end
 
 
 
+client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.8 end)
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus c.opacity = 1 end)
-client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
 client.connect_signal("focus", function(c) c.border_color = "#21A675" c.opacity = 1 end)
-client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal c.opacity = 0.7 end)
 client.connect_signal("manage", function (c, startup)
     -- other configurations
     if c.instance == "explorer.exe" then

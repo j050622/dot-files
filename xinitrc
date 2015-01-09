@@ -29,7 +29,9 @@ fcitx &
 #conky -c /home/zjz311/.conkyrc
 #exit
 #
-#xcompmgr &
+
+xcompmgr &
+
 #DEFAULT_SESSION=startxfce4
 #case $1 in
 #    awesome)

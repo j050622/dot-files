@@ -58,6 +58,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle "bling/vim-airline"
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+"Bundle 'Yggdroot/indentLine'
 
 "-------------
 " Tmux
@@ -286,3 +287,11 @@ nmap <silent> <Leader>rv <Plug>SetTmuxVars
 let g:no_turbux_mappings = 1
 nmap <leader>rT <Plug>SendTestToTmux
 nmap <leader>rt <Plug>SendFocusedTestToTmux
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => indentLine
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:indentLine_color_term = 239
+" GVIM
+" let g:indentLine_color_gui = '#A4E57E'
+let g:indentLine_char = '¦'
