@@ -39,9 +39,6 @@ alias cls='clear'
 alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
-alias ls='ls --color=auto -F'
-alias la='ls --color=auto -alhF'
-alias ll='ls --color=auto -lhF'
 alias lsd='ls -ld *(-/DN)'
 alias lsa='ls -ld .*'
 alias f='find | grep'
@@ -63,7 +60,8 @@ alias sd="sdcv "
 alias virtualbox="(virtualbox >/dev/null 2>&1 &)"
 alias pfind='ps aux | grep'
 alias dns="sudo vim /etc/resolv.conf"
-alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
+#alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
+alias vi="emacsclient -t"
 alias helisp="zathura ~/all/emacs/introduction_to_programming_in_emacs_lisp.pdf &"
 alias ack='ack --color'
 

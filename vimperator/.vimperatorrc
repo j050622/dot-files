@@ -32,7 +32,7 @@ nnoremap <leader>; ;
 " ;c (right mouse)
 
 " Colorscheme
-colorscheme molokai
+" colorscheme molokai
 
 " Select copy cut paste .. map
 noremap <C-a> i<C-a>
