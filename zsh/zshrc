@@ -71,4 +71,4 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 source ~/dotfiles/zsh/zshrc.local
 # z jump
-source ~/dotfiles/zsh/z/z.sh
+source ~/dotfiles/z/z.sh
