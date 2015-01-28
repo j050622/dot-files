@@ -143,3 +143,6 @@ TAG="\n\n\033[0;32m###"
 END="### \033[0m\n"
 
 export GROFF_NO_SGR=1
+
+export LANG=en_GB.UTF-8
+export LC_ALL=en_GB.UTF-8
