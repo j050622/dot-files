@@ -6,7 +6,6 @@ export PATH=~/.pyenv/shims:$PATH
 # My aliases
 
 # Set up auto extension stuff
-alias -s html=$BROWSER
 alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
@@ -20,8 +19,6 @@ alias -s png=ristretto
 alias -s jpg=ristretto
 alias -s gif=ristretto
 alias -s doc=libreoffice
-alias -s gz='tar -xzvf'
-alias -s bz2='tar -xjvf'
 alias -s PKGBUILD=$EDITOR
 alias -s mp4=smplayer
 alias -s avi=smplayer
@@ -36,7 +33,6 @@ alias -s mobi=FBReader
 # Normal aliases
 alias rsync='rsync -Pa --progress'
 alias cls='clear'
-alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias lsd='ls -ld *(-/DN)'
@@ -64,6 +60,7 @@ alias dns="sudo vim /etc/resolv.conf"
 alias vi="emacsclient -t"
 alias helisp="zathura ~/all/emacs/introduction_to_programming_in_emacs_lisp.pdf &"
 alias ack='ack --color'
+alias tmux='tmux -2'
 
 alias -g XS='"$(xsel)"'
 
