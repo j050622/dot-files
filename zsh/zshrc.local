@@ -132,8 +132,6 @@ ack2() {
     ack --type-set=$ext_t=.$ext --$ext_t --smart-case $@
 }
 
-# z jump
-
 ##################################################################
 # bind key
 
@@ -141,5 +139,7 @@ autoload -Uz history-beginning-search-menu
 zle -N history-beginning-search-menu
 bindkey '^X^X' history-beginning-search-menu
 
-TAG="\n\n\033[0;32m\#\#\# "
-END=" \#\#\# \033[0m\n"
+TAG="\n\n\033[0;32m###"
+END="### \033[0m\n"
+
+export GROFF_NO_SGR=1

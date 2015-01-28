@@ -69,6 +69,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-source ~/dotfiles/zsh/zshrc.local
+source ~/dot-files/zsh/zshrc.local
 # z jump
-source ~/dotfiles/z/z.sh
+source ~/dot-files/z/z.sh
