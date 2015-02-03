@@ -1,6 +1,9 @@
-"3.8 (created: 2013/10/13 18:08:56)
+" vim: set ft=vimperator:
 
 let mapleader = ","
+
+" Title
+set titlestring=Firefox
 
 " Fast jump
 noremap j 5j
@@ -28,8 +31,9 @@ noremap ,p <Esc>:pageinfo gfmhH<CR>"
 
 " Useful
 nmap ; :
-nnoremap <leader>; ;
+
 " ;c (right mouse)
+nnoremap <leader>; ;
 
 " Colorscheme
 colorscheme molokai
@@ -38,5 +42,7 @@ colorscheme molokai
 noremap <C-a> i<C-a>
 imap <C-a> <Esc>i
 
+" External editor
+set editor='bash -lc "mvim -g -f \$*" mvim'
+
 source! /home/zjz311/.vimperatorrc.local
-" vim: set ft=vimperator:
