@@ -1,4 +1,4 @@
-" vim: set ft=vimperator:
+" vim: set ft=vim:
 
 let mapleader = ","
 
@@ -8,8 +8,8 @@ set titlestring=Firefox
 " Fast jump
 noremap j 5j
 noremap k 5k
-noremap l <c-n>
-noremap h <c-p>
+noremap l <C-n>
+noremap h <C-p>
 noremap J <C-f>
 noremap K <C-b>
 noremap f F
@@ -23,11 +23,11 @@ noremap <leader>f <F11>
 
 " Fast open search engine
 noremap <leader>t :tabopen<CR>
-noremap <leader>g :tabopen https://www.google.com.tw<CR>
-noremap <leader>b :tabopen www.baidu.com<CR>
+noremap <leader>b :bmarks<Space>
+noremap <leader>h :history<Space>
 
 " Show HTTP Headers
-noremap ,p <Esc>:pageinfo gfmhH<CR>"
+noremap <leader>p <Esc>:pageinfo gfmhH<CR>"
 
 " Useful
 nmap ; :
