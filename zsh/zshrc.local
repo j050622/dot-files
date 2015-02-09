@@ -142,8 +142,17 @@ bindkey '^X^X' history-beginning-search-menu
 TAG="\n\n\033[0;32m###"
 END="### \033[0m\n"
 
+# color man page
 export GROFF_NO_SGR=1
 
 if [ -z "$LANG" ]; then
     export LANG=en_US.UTF-8
 fi
+
+if [ -z "$GOPATH" ]; then
+    export GOPATH=/usr/local/gopath
+    export PATH=$PATH:$GOPATH/bin
+fi
+
+# z jump
+source $HOME/dot-files/z/z.sh
