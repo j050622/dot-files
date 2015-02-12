@@ -151,8 +151,9 @@ fi
 
 if [ -z "$GOPATH" ]; then
     export GOPATH=/usr/local/gopath
-    export PATH=$PATH:$GOPATH/bin
 fi
+
+export PATH=$PATH:$GOPATH/bin
 
 # z jump
 source $HOME/dot-files/z/z.sh
