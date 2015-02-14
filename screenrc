@@ -1,0 +1,11 @@
+startup_message off
+vbell off
+deflogin off
+shelltitle '$ |bash'
+caption always "%{= R}[ %{=b b}%-w%>%{G}>%{b}%{y}%n %t%{-}%+w%{-b}%< %=%{R}][ %{G}%H%{g} %{R}][ %{M}%Y-%m-%d %{G}%c%{R} ]"
+defutf8 on
+hardstatus string "screen: %t"
+autodetach on
+termcapinfo xterm* ti@:te@
+altscreen on
+defscrollback 5000
