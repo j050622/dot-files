@@ -157,4 +157,7 @@ fi
 export PATH=$PATH:$GOPATH/bin
 
 # z jump
-source $HOME/dot-files/z/z.sh
+if [ ! -e "$HOME/.z" ]; then
+    touch $HOME/.z
+    source $HOME/dot-files/z/z.sh
+fi
