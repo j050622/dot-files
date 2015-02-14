@@ -1,7 +1,8 @@
 # Vars used later on by Zsh
 export EDITOR="vim"
 export BROWSER=firefox
-export PATH=~/.pyenv/shims:$PATH
+PATH_SBIN="/usr/local/sbin:/usr/sbin:/sbin"
+export PATH=~/.pyenv/shims:$PATH_SBIN:$PATH
 ##################################################################
 # My aliases
 
