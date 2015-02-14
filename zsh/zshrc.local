@@ -159,5 +159,5 @@ export PATH=$PATH:$GOPATH/bin
 # z jump
 if [ ! -e "$HOME/.z" ]; then
     touch $HOME/.z
-    source $HOME/dot-files/z/z.sh
 fi
+source $HOME/dot-files/z/z.sh
