@@ -153,7 +153,7 @@ augroup END
 try
     color DarkDefault
 catch
-    colorscheme evening
+    colorscheme desert
 endtry
 
 
