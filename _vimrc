@@ -265,6 +265,16 @@ autocmd WinLeave * set nocursorline nocursorcolumn
 autocmd WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
 
+" Always show the status line
+set laststatus=2
+
+" Statusline
+set statusline=
+            \\ %F%m%r%h%w\ [ASCII=\%03.3b]\ [HEX=\%02.2B]
+            \%=%(%{&ff}:%{(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")
+            \\ &&\ &bomb)?\",B\":\"\")}%k\ \|\ %Y\ \|
+            \\ Buffer%0*\ %n%*%)\ \|\ %([%l,%v][%p%%][LEN=%L]\ %)
+
 " Clear column highlight theme
 highlight clear SignColumn
 
