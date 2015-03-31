@@ -139,6 +139,21 @@ cdp() {
         )"
 }
 
+sopen() {
+    f=$(find ${1:-.} | percol)
+    t=$(echo "$f" | grep -E "(c|cpp|sh|py|lua|md|txt|org|log|conf|config)$")
+
+    if [ -n "$t" ]; then
+        vim "$f"
+    else
+        type open >/dev/null 2>&1 && (
+            if [ -n "$f" ]; then
+                open "$f"
+            fi
+        ) || echo "$f"
+    fi
+}
+
 ##################################################################
 # bind key
 
