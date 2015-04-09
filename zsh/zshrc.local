@@ -125,6 +125,21 @@ s1() {
 EOF
 }
 
+jj() {
+    f=$(find ${1:-.} | percol)
+    t=$(echo "$f" | grep -E "(c|cpp|sh|py|rb|hs|rkt|js|lua|md|txt|org|log|conf|config)$")
+
+    if [ -n "$t" ]; then
+        vim "$f"
+    else
+        type open >/dev/null 2>&1 && (
+            if [ -n "$f" ]; then
+                open "$f"
+            fi
+        ) || echo "$f"
+    fi
+}
+
 ack2() {
     ext=$1
     shift
@@ -137,21 +152,6 @@ cdp() {
     cd "$(python -c "import os.path as _, ${1}; \
             print(_.dirname(_.realpath(${1}.__file__[:-1])))"
         )"
-}
-
-sopen() {
-    f=$(find ${1:-.} | percol)
-    t=$(echo "$f" | grep -E "(c|cpp|sh|py|lua|md|txt|org|log|conf|config)$")
-
-    if [ -n "$t" ]; then
-        vim "$f"
-    else
-        type open >/dev/null 2>&1 && (
-            if [ -n "$f" ]; then
-                open "$f"
-            fi
-        ) || echo "$f"
-    fi
 }
 
 ##################################################################
