@@ -125,6 +125,14 @@ s1() {
 EOF
 }
 
+random-string() {
+    if [ -n "$(command -v openssl)" ]; then
+        openssl rand -base64 32
+    else
+        cat /dev/urandom | env LC_CTYPE=C tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1
+    fi
+}
+
 jj() {
     f=$(find ${1:-.} | percol)
     t=$(echo "$f" | grep -E "(c|cpp|sh|py|rb|hs|rkt|js|lua|md|txt|org|log|conf|config)$")
