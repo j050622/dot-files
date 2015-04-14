@@ -14,8 +14,10 @@ END="### \033[0m\n"
 #-----------------
 export GROFF_NO_SGR=1
 
-if [ -z "$LANG" ]; then
+if [ -z "$LANG" ] || [ -z "$LC_ALL" ]; then
     export LANG=en_US.UTF-8
+    export LC_ALL=en_US.UTF-8
+    export LC_CTYPE=en_US.UTF-8
 fi
 
 if [ -z "$GOPATH" ]; then
