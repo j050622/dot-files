@@ -1,12 +1,44 @@
-# Vars used later on by Zsh
+###############################################################################
+# Vars used later on by zsh
+###############################################################################
 export EDITOR="vim"
 export BROWSER=firefox
 PATH_SBIN="/usr/local/sbin:/usr/sbin:/sbin"
 export PATH=~/.pyenv/shims:$PATH_SBIN:$PATH
-##################################################################
-# My aliases
 
+TAG="\n\n\033[0;32m###"
+END="### \033[0m\n"
+
+#-----------------
+# color man page
+#-----------------
+export GROFF_NO_SGR=1
+
+if [ -z "$LANG" ]; then
+    export LANG=en_US.UTF-8
+fi
+
+if [ -z "$GOPATH" ]; then
+    export GOPATH=/usr/local/gopath
+fi
+
+export PATH=$PATH:$GOPATH/bin
+
+#-----------------
+# z jump
+#-----------------
+if [ ! -e "$HOME/.z" ]; then
+    touch $HOME/.z
+fi
+source $HOME/dot-files/z/z.sh
+
+
+###############################################################################
+# My aliases
+###############################################################################
+#-----------------
 # Set up auto extension stuff
+#-----------------
 alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
@@ -31,7 +63,9 @@ alias -s djvu=zathura
 alias -s chm=xchm
 alias -s mobi=FBReader
 
-# Normal aliases
+#-----------------
+# normal aliases
+#-----------------
 alias rsync='rsync -Pa --progress'
 alias cls='clear'
 alias javac="javac -J-Dfile.encoding=utf8"
@@ -57,23 +91,29 @@ alias sd="sdcv "
 alias virtualbox="(virtualbox >/dev/null 2>&1 &)"
 alias pfind='ps aux | grep'
 alias dns="sudo vim /etc/resolv.conf"
-#alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
 alias vi="emacsclient -t"
+#alias emacs="(export LC_CTYPE=zh_CN.UTF-8;emacs &)"
 alias helisp="zathura ~/all/emacs/introduction_to_programming_in_emacs_lisp.pdf &"
 alias ack='ack --color'
 alias tmux='tmux -2'
 
 alias -g XS='"$(xsel)"'
 
+#-----------------
 # command L equivalent to command | less
-alias -g L='|less'
+#-----------------
+alias -g L='| less'
 
-# command S equivalent to command &> /dev/null &
+alias -g F='$(find . | grep -v "/.git/" | percol)'
 alias -g S='&> /dev/null &'
 
-##################################################################
-# ShellFuncs
-# -- coloured manuals
+
+###############################################################################
+# Shell Functions
+###############################################################################
+#-----------------
+# coloured manuals
+#-----------------
 man() {
   env \
     LESS_TERMCAP_mb=$(printf "\e[1;31m") \
@@ -134,7 +174,7 @@ random-string() {
 }
 
 jj() {
-    f=$(find ${1:-.} | percol)
+    f=$(find ${1:-.} | grep -v '.git/' | percol)
     t=$(echo "$f" | grep -E "(c|cpp|sh|py|rb|hs|rkt|js|lua|md|txt|org|log|conf|config)$")
 
     if [ -n "$t" ]; then
@@ -162,31 +202,10 @@ cdp() {
         )"
 }
 
-##################################################################
-# bind key
 
+###############################################################################
+# Bind key
+###############################################################################
 autoload -Uz history-beginning-search-menu
 zle -N history-beginning-search-menu
 bindkey '^X^X' history-beginning-search-menu
-
-TAG="\n\n\033[0;32m###"
-END="### \033[0m\n"
-
-# color man page
-export GROFF_NO_SGR=1
-
-if [ -z "$LANG" ]; then
-    export LANG=en_US.UTF-8
-fi
-
-if [ -z "$GOPATH" ]; then
-    export GOPATH=/usr/local/gopath
-fi
-
-export PATH=$PATH:$GOPATH/bin
-
-# z jump
-if [ ! -e "$HOME/.z" ]; then
-    touch $HOME/.z
-fi
-source $HOME/dot-files/z/z.sh
