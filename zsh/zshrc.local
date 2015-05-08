@@ -5,8 +5,9 @@ export EDITOR="vim"
 export BROWSER=firefox
 
 PYENV_ROOT=$HOME/.pyenv
+OPENRESTY=/usr/local/openresty
 PATH_SBIN="/usr/local/sbin:/usr/sbin:/sbin"
-export PATH=$PYENV_ROOT/bin:$PATH_SBIN:$PATH
+export PATH=$PYENV_ROOT/bin:$OPENRESTY/bin:$PATH_SBIN:$PATH
 
 if [ -n "$(command -v pyenv)" ]; then
     eval "$(pyenv init -)"
