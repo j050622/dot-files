@@ -5,9 +5,12 @@ export EDITOR="vim"
 export BROWSER=firefox
 
 PYENV_ROOT=$HOME/.pyenv
+TOOLS_ROOT=$HOME/tools
 OPENRESTY=/usr/local/openresty
+CODE2EBOOK_ROOT=$TOOLS_ROOT/code2ebook
+CALIBRE_ROOT=/Applications/calibre.app/Contents/MacOS
 PATH_SBIN="/usr/local/sbin:/usr/sbin:/sbin"
-export PATH=$PYENV_ROOT/bin:$OPENRESTY/bin:$PATH_SBIN:$PATH
+export PATH=$PYENV_ROOT/bin:$OPENRESTY/bin:$CODE2EBOOK_ROOT:$CALIBRE_ROOT:$PATH_SBIN:$PATH
 
 if [ -n "$(command -v pyenv)" ]; then
     eval "$(pyenv init -)"
@@ -113,7 +116,7 @@ alias -g XS='"$(xsel)"'
 #-----------------
 alias -g L='| less'
 
-alias -g F='$(find . | grep -v "/.git/" | peco)'
+alias -g F='"$(find . | grep -v "/.git/" | peco)"'
 alias -g S='&> /dev/null &'
 
 
@@ -211,6 +214,25 @@ cdp() {
         )"
 }
 
+gen_ebook() {
+    title=$1
+    src2html.pl --tab-width 4 --color --cross-reference \
+        --navigator --line-numbers . $title
+}
+
+ebook2pdf() {
+    html=$1
+    pdf=$2
+    ebook-convert $html $pdf \
+        --override-profile-size \
+        --paper-size a4 \
+        --pdf-default-font-size 12 \
+        --pdf-mono-font-size 12 \
+        --margin-left 10 --margin-right 10 \
+        --margin-top 10 --margin-bottom 10 \
+        --page-breaks-before='/'
+}
+
 
 ###############################################################################
 # Bind key
@@ -218,3 +240,41 @@ cdp() {
 autoload -Uz history-beginning-search-menu
 zle -N history-beginning-search-menu
 bindkey '^X^X' history-beginning-search-menu
+
+#-----------------
+# fancy Ctrl-z
+#-----------------
+fancy-ctrl-z () {
+    if [[ $#BUFFER -eq 0 ]]; then
+        BUFFER="fg"
+        zle accept-line
+    else
+        zle push-input
+        zle clear-screen
+    fi
+}
+
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+
+#-----------------
+# Source: http://blog.plenz.com/2012-01/zsh-complete-words-from-tmux-pane.html
+#-----------------
+_tmux_pane_words() {
+    local expl
+    local -a w
+    if [[ -z "$TMUX_PANE" ]]; then
+        _message "not running inside tmux!"
+        return 1
+    fi
+    w=( ${(u)=$(tmux capture-pane \; show-buffer \; delete-buffer)} )
+    _wanted values expl 'words from current tmux pane' compadd -a w
+}
+
+zle -C tmux-pane-words-prefix   complete-word _generic
+zle -C tmux-pane-words-anywhere complete-word _generic
+bindkey '^Tt' tmux-pane-words-prefix
+bindkey '^T^T' tmux-pane-words-anywhere
+zstyle ':completion:tmux-pane-words-(prefix|anywhere):*' completer _tmux_pane_words
+zstyle ':completion:tmux-pane-words-(prefix|anywhere):*' ignore-line current
+zstyle ':completion:tmux-pane-words-anywhere:*' matcher-list 'b:=* m:{A-Za-z}={a-zA-Z}'
