@@ -31,7 +31,7 @@ if [ -z "$LANG" ] || [ -z "$LC_ALL" ]; then
 fi
 
 if [ -z "$GOPATH" ]; then
-    export GOPATH=/usr/local/gopath
+    export GOPATH=$HOME/gopath
 fi
 
 export PATH=$PATH:$GOPATH/bin
