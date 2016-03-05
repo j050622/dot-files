@@ -118,6 +118,8 @@ alias -g L='| less'
 
 alias -g F='"$(find . | grep -v "/.git/" | peco)"'
 alias -g S='&> /dev/null &'
+alias -g DN='/dev/null'
+alias -g NV='-o /dev/null -v'
 
 
 ###############################################################################
