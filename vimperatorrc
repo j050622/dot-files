@@ -1,5 +1,8 @@
 " vim: set ft=vim:
 
+" No toolbars or menus by default
+set toolbars=none,tabs,navigation
+
 let mapleader = ","
 
 " Title
@@ -26,6 +29,17 @@ noremap <leader>t :tabopen<CR>
 noremap <leader>b :bmarks<Space>
 noremap <leader>h :history<Space>
 
+" hint chars
+set hintchars=hjklasdfgyuiopqwertnmzxcvb
+set showstatuslinks=2
+
+set nextpattern=\\s*(下一页|下一頁|下一篇|下页|后页)\\s*,\\bnext\\b,^>$,^(>>|»)$,^(>|»),(>|»)$,\\bmore\\b
+set previouspattern=\\s*(上一页|上一頁|上一篇|上页|前页)\\s*,\\b(prev|previous)\\b,^<$,^(<<|«)$,^(<|«),(<|«)$
+
+" prev/next page
+noremap . ]]
+noremap , [[
+
 " Show HTTP Headers
 noremap <leader>p <Esc>:pageinfo gfmhH<CR>"
 
@@ -46,6 +60,17 @@ imap <C-a> <Esc>i
 imap <C-1> <C-i>
 
 " External editor
-set editor='bash -lc "mvim -g -f \$*" mvim'
+set editor='/usr/local/bin/mvim -g -f'
+
+" Toggle sidebar
+noremap sa :sidebar Pocket<CR>
+noremap sb :sidebar Bookmarks<CR><ESC><ESC>
+noremap sd :sidebar Downloads<CR>
+noremap ss :sbclose<CR>
+
+" AutoProxy
+noremap <silent> ca :set! extensions.autoproxy.proxyMode=auto<CR>:echo ':)'<CR>
+noremap <silent> cg :set! extensions.autoproxy.proxyMode=global<CR>:echo ':D'<CR>
+noremap <silent> cd :set! extensions.autoproxy.proxyMode=disabled<CR>:echo ':('<CR>
 
 source! /home/zjz311/.vimperatorrc.local
