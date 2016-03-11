@@ -1,5 +1,4 @@
 " vim: set ft=vim:
-
 " No toolbars or menus by default
 set toolbars=none,tabs,navigation
 
@@ -28,6 +27,7 @@ noremap <leader>f <F11>
 noremap <leader>t :tabopen<CR>
 noremap <leader>b :bmarks<Space>
 noremap <leader>h :history<Space>
+noremap <leader>g :tabopen https://www.google.com/ncr<CR>
 
 " hint chars
 set hintchars=hjklasdfgyuiopqwertnmzxcvb
