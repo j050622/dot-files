@@ -78,6 +78,9 @@ alias -s mobi=FBReader
 #-----------------
 # normal aliases
 #-----------------
+alias ssh="ssh -o ProxyCommand='nc %h %p'"
+alias t='t.py --task-dir ~/tasks --list tasks'
+alias lsof='lsof -Pnl'
 alias rsync='rsync -Pa --progress'
 alias cls='clear'
 alias javac="javac -J-Dfile.encoding=utf8"
