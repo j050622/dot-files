@@ -10,7 +10,7 @@ OPENRESTY=/usr/local/openresty
 CODE2EBOOK_ROOT=$TOOLS_ROOT/code2ebook
 CALIBRE_ROOT=/Applications/calibre.app/Contents/MacOS
 PATH_SBIN="/usr/local/sbin:/usr/sbin:/sbin"
-export PATH=$HOME/bin:$PYENV_ROOT/bin:$OPENRESTY/bin:$CODE2EBOOK_ROOT:$CALIBRE_ROOT:$PATH_SBIN:$PATH
+export PATH=$HOME/bin:$HOME/dev/bin:$PYENV_ROOT/bin:$OPENRESTY/bin:$CODE2EBOOK_ROOT:$CALIBRE_ROOT:$PATH:$PATH_SBIN
 
 if [ -n "$(command -v pyenv)" ]; then
     eval "$(pyenv init -)"
